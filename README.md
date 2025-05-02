@@ -1,5 +1,5 @@
 ### Oblivion Damage Formula Skill Cap Remover
-Oblivion Remastered handles all skill capping in the luck skill modifier calculator. If a skill over 100 is inputted, it will be set back to 100 here.
+Oblivion Remastered handles all skill capping in the luck skill modifier function. If a skill over 100 is inputted, it will be set back to 100 here.
 ``` 
 float __fastcall luck_skill_modifier(int a1_SkillInQuestion, int a2_Luck)
 {
@@ -25,7 +25,7 @@ The Assembly Instruction:
 1468CA02B 48 0F 46 C1       CMOVG      EBX ,EAX
 ``` 
 
-This replaces the CMOVG instruction with a MOV instruction, removing the check for values less than 100, removing the cap.
+This replaces the CMOVG instruction with a MOV instruction, removing the check for values less than or equal to 100, removing the cap.
 
 ## Build
 
