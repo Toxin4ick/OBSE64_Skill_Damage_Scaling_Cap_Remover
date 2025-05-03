@@ -37,7 +37,7 @@ This replaces the CMOVG instruction with a MOV instruction, removing the check f
 git clone --recurse-submodules https://github.com/Baestus/OBSE64_Skill_Damage_Scaling_Cap_Remover.git
 ``` 
 ``` 
-cd OBSE64_Skill_Damage_Scaling_Cap_Remover
+cd OBSE64_Skill_Damage_Scaling_Cap_Remover/SkillDamageCapRemover
 ```
 ``` 
 xmake build
