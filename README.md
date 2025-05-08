@@ -27,25 +27,17 @@ The Assembly Instruction:
 
 This replaces the CMOVG instruction with a MOV instruction, removing the check for values less than or equal to 100, removing the cap.
 
-## Build
-
-### Requirements
-* [XMake](https://xmake.io) [2.8.2+]
-* C++23 Compiler (MSVC, Clang-CL)
-
-```
-git clone --recurse-submodules https://github.com/Baestus/OBSE64_Skill_Damage_Scaling_Cap_Remover.git
-``` 
-``` 
-cd OBSE64_Skill_Damage_Scaling_Cap_Remover/SkillDamageCapRemover
-```
-``` 
-xmake build
-```
-
 ## Install
-Place the EffectiveSkillDamageUncapper.dll in
-``` 
+Place the OBSE64 Plugin in
+```
 OblivionRemastered\Binaries\Win64\obse\plugins
 ```
 then run the game through OBSE64.
+
+Place the ASI Plugin in
+```
+OblivionRemastered\Binaries\Win64\plugins
+or
+OblivionRemastered\Binaries\WinGDK\plugins
+```
+then run the game normally.
